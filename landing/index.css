@@ -1,0 +1,273 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-color: #f2f2f2;
+}
+
+.tophead{
+    padding-top: 12px;
+    padding-bottom: 16ppx;
+    padding-left: 8px;
+    background-color: #f2f2f2;
+}
+
+.logo2{
+    margin-left: 1.75cm;
+    height: 30px;
+    width: 60px;
+}
+
+.nav1top{
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 30px;
+font-size: 16px;
+display: flex;
+justify-content: center;
+height: 40px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2cm;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-left: 22cm;
+}
+
+li {
+    margin-right: 40px;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+}
+
+.navunder1{
+    text-decoration: none;
+}
+
+.nav1top a:hover {
+    color: #ae661a;
+}
+
+.yellowtop{
+    background-color: #fbc950;
+    margin-top: 10px;
+    animation: rotate 2s linear infinite;
+    display: flex;
+    justify-content: left;
+}
+
+.yellowman {
+    transition: transform 0.5s ease-in-out;
+}
+
+.L1{
+    text-decoration: none !important;
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 1;
+    letter-spacing: 0.2em;
+}
+
+.L2{
+    font-size: 50px;
+    text-decoration: none !important;
+    color: black;
+}
+
+.L3 {
+    font-size: 50px;
+    text-decoration: none !important;
+    color: black;
+}
+
+.L4B{
+    font-size: 50px;
+    color: #34365a;
+    }
+
+.L5{
+    font-size: 50px;
+}
+
+.L6{
+    font-size: 50px;
+}
+
+.yellowtext{
+    text-decoration: none;
+    padding-top: 2cm;
+    margin-left: 1cm;
+    line-height: 1px;
+}
+
+.rounded-button {
+    margin-top: 2cm;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #34365a ;
+    color: #fff;
+    border-radius: 30px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.rounded-button:hover{
+    color:#34365a  ;
+    background-color: #fff;
+}
+
+.midheading{
+    text-align: center;
+    font-size: 40px;
+}
+
+.midwords{
+    text-align: center;
+}
+
+.R1{
+    display: flex;
+    justify-content: center;
+    margin-left: 4cm ;
+    height: 35.5vh;
+}
+
+.B2R1{
+    width: 12cm;
+}
+
+.B2R1{
+    font-size: 18px;
+    margin-right: auto;
+    padding-left: 26px;
+    text-align: left;
+    background-color: #f1bb13;
+    width:12cm ;
+    padding-bottom: 12px;
+}
+
+.boxbutton1{
+    border: solid black 1px;
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f1bb13 ;
+    color: #551a74;
+    border-radius: 30px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boxbutton1:hover{
+    color:#34365a  ;
+    background-color: #fff;
+}
+
+.R2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 4cm ;
+    height: 35.5vh;
+}
+
+.B1R2{
+    color: white;
+    font-size: 18px;
+    margin-right: auto;
+    padding-left: 26px;
+    text-align: left;
+    background-color: #34365a;
+    width:12.80cm ;
+    padding-bottom: 12px;
+}
+
+.boxbutton2{
+border: solid rgb(255, 255, 255) 1px;
+display: inline-block;
+padding-top: 16px;
+padding-bottom: 16px;
+padding-left: 40px;
+padding-right: 40px;
+font-size: 20px;
+text-align: center;
+text-decoration: none;
+background-color: #f1bb13 ;
+color: #551a74;
+border-radius: 30px; 
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.boxbutton2:hover{
+    color:#34365a  ;
+    background-color: #fff;
+}
+
+
+
+.R3{
+    display: flex;
+    justify-content: center;
+    margin-left: 4cm ;
+    height: 35.5vh;
+}
+
+.B1R3{
+    font-size: 18px;
+    margin-right: auto;
+    padding-left: 26px;
+    text-align: left;
+    background-color: #f1bb13;
+    width:12cm ;
+    padding-bottom: 12px;
+}
+
+.boxbutton3{
+    border: solid black 1px;
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f1bb13 ;
+    color: #551a74;
+    border-radius: 30px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boxbutton3:hover{
+    color:#34365a  ;
+    background-color: #fff;
+}
