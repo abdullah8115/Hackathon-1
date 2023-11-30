@@ -1,32 +1,32 @@
-body{
+body {
     padding: 0%;
     margin: 0%;
 }
 
-header{
+header {
     background-color: #f2f2f2;
 }
 
-.tophead{
+.tophead {
     padding-top: 12px;
     padding-bottom: 16ppx;
     padding-left: 8px;
     background-color: #f2f2f2;
 }
 
-.logo2{
+.logo2 {
     margin-left: 1.75cm;
     height: 30px;
     width: 60px;
 }
 
-.nav1top{
-font-family: Arial, Helvetica, sans-serif;
-margin-top: 30px;
-font-size: 16px;
-display: flex;
-justify-content: center;
-height: 40px;
+.nav1top {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
 }
 
 
@@ -54,7 +54,7 @@ li {
     font-weight: bold;
 }
 
-.navunder1{
+.navunder1 {
     text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ li {
     color: #ae661a;
 }
 
-.yellowtop{
+.yellowtop {
     background-color: #fbc950;
     margin-top: 10px;
     animation: rotate 2s linear infinite;
@@ -74,7 +74,7 @@ li {
     transition: transform 0.5s ease-in-out;
 }
 
-.L1{
+.L1 {
     text-decoration: none !important;
     color: black;
     font-size: 20px;
@@ -83,7 +83,7 @@ li {
     letter-spacing: 0.2em;
 }
 
-.L2{
+.L2 {
     font-size: 50px;
     text-decoration: none !important;
     color: black;
@@ -95,20 +95,20 @@ li {
     color: black;
 }
 
-.L4B{
+.L4B {
     font-size: 50px;
     color: #34365a;
-    }
+}
 
-.L5{
+.L5 {
     font-size: 50px;
 }
 
-.L6{
+.L6 {
     font-size: 50px;
 }
 
-.yellowtext{
+.yellowtext {
     text-decoration: none;
     padding-top: 2cm;
     margin-left: 1cm;
@@ -125,29 +125,34 @@ li {
     font-size: 20px;
     text-align: center;
     text-decoration: none;
-    background-color: #34365a ;
+    background-color: #34365a;
     color: #fff;
-    border-radius: 30px; 
+    border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.rounded-button:hover{
-    color:#34365a  ;
+.rounded-button:hover {
+    color: #34365a;
     background-color: #fff;
 }
 
-.midheading{
+.midheading {
     text-align: center;
     font-size: 40px;
 }
 
-.midwords{
+.midwords {
     text-align: center;
 }
 
+.body2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
 .R1{
-    display: flex;
+    display: flexbox ;
     justify-content: center;
     margin-left: 4cm ;
     height: 35.5vh;
@@ -165,9 +170,9 @@ li {
     background-color: #f1bb13;
     width:12cm ;
     padding-bottom: 12px;
-}
+} */
 
-.boxbutton1{
+.boxbutton1 {
     border: solid black 1px;
     display: inline-block;
     padding-top: 16px;
@@ -177,19 +182,19 @@ li {
     font-size: 20px;
     text-align: center;
     text-decoration: none;
-    background-color: #f1bb13 ;
+    background-color: #f1bb13;
     color: #551a74;
-    border-radius: 30px; 
+    border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.boxbutton1:hover{
-    color:#34365a  ;
+.boxbutton1:hover {
+    color: #34365a;
     background-color: #fff;
 }
 
-.R2{
+/* .R2{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -207,33 +212,33 @@ li {
     background-color: #34365a;
     width:12.80cm ;
     padding-bottom: 12px;
+} */
+
+.boxbutton2 {
+    border: solid rgb(255, 255, 255) 1px;
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f1bb13;
+    color: #551a74;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.boxbutton2{
-border: solid rgb(255, 255, 255) 1px;
-display: inline-block;
-padding-top: 16px;
-padding-bottom: 16px;
-padding-left: 40px;
-padding-right: 40px;
-font-size: 20px;
-text-align: center;
-text-decoration: none;
-background-color: #f1bb13 ;
-color: #551a74;
-border-radius: 30px; 
-cursor: pointer;
-transition: background-color 0.3s ease;
-}
-
-.boxbutton2:hover{
-    color:#34365a  ;
+.boxbutton2:hover {
+    color: #34365a;
     background-color: #fff;
 }
 
 
 
-.R3{
+/* .R3{
     display: flex;
     justify-content: center;
     margin-left: 4cm ;
@@ -248,9 +253,9 @@ transition: background-color 0.3s ease;
     background-color: #f1bb13;
     width:12cm ;
     padding-bottom: 12px;
-}
+} */
 
-.boxbutton3{
+.boxbutton3 {
     border: solid black 1px;
     display: inline-block;
     padding-top: 16px;
@@ -260,14 +265,117 @@ transition: background-color 0.3s ease;
     font-size: 20px;
     text-align: center;
     text-decoration: none;
-    background-color: #f1bb13 ;
+    background-color: #f1bb13;
     color: #551a74;
-    border-radius: 30px; 
+    border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.boxbutton3:hover{
-    color:#34365a  ;
+.boxbutton3:hover {
+    color: #34365a;
     background-color: #fff;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.R1,
+.R2,
+.R3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f1bb13;
+    margin: 10px;
+    padding: 20px;
+}
+
+.R2 {
+    background-color: #34365a;
+}
+
+.B2R1,
+.B1R2,
+.B2R3 {
+    color: white;
+}
+
+.boxbutton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f1bb13;
+    color: #551a74;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boxbutton:hover {
+    color: #34365a;
+    background-color: #fff;
+}
+
+.body2-heading {
+    font-size: 1.5cm;
+}
+
+
+.body3 {}
+
+.start-textb3 {
+    padding: 8%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #34365a;
+    text-align: center;
+}
+
+.Pb3 {
+    font-size: 18px;
+}
+
+.body3-button1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #34365a;
+    color: #ffffff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.body3-button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #34365a;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.yellowman2-box {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(bottom, #34365a, #fff);
+
+}
+
+.yellowman2-box::before {}
+
+.yellowman2-img {}
