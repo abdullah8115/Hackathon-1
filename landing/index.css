@@ -329,10 +329,12 @@ li {
 }
 
 
-.body3 {}
+.body3 {
+    background-color: #34365a;
+}
 
 .start-textb3 {
-    padding: 8%;
+    padding: 5%;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #34365a;
@@ -369,13 +371,62 @@ li {
     transition: background-color 0.3s ease;
 }
 
-.yellowman2-box {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(bottom, #34365a, #fff);
-
+.yellowman-img{
+    margin-top: -7.5cm;
+    margin-left: 18cm;
+    padding-bottom: 8cm;
+    width: 22cm;
+    height: 22cm;
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.yellowman2-box::before {}
+.whitefloatbox{
+    text-align: left;
+    padding: 26px;
+    margin-top: -4cm;
+    margin-left: 2cm;
+    position: absolute;
+    width: 14cm;
+    height: 14cm;
+    color: black;
+    background-color: #fff;
+}
 
-.yellowman2-img {}
+.floatboxh1{
+    /* text-align: left; */
+    font-size: 52px;
+}
+
+.flboxtext{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.freepik{
+    font-size: 18px ;
+}
+
+.freepik a{
+    color: inherit;
+}
+
+.flboxbutton{
+    display: inline-block;
+    padding: 4%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #34365a;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.imgbox1b3{
+    margin: ;
+}
