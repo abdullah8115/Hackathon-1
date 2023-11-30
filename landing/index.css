@@ -371,7 +371,7 @@ li {
     transition: background-color 0.3s ease;
 }
 
-.yellowman-img{
+.yellowman-img {
     margin-top: -7.5cm;
     margin-left: 18cm;
     padding-bottom: 8cm;
@@ -382,7 +382,7 @@ li {
     flex-direction: row-reverse;
 }
 
-.whitefloatbox{
+.whitefloatbox {
     text-align: left;
     padding: 26px;
     margin-top: -4cm;
@@ -394,25 +394,25 @@ li {
     background-color: #fff;
 }
 
-.floatboxh1{
+.floatboxh1 {
     /* text-align: left; */
     font-size: 52px;
 }
 
-.flboxtext{
+.flboxtext {
     font-size: 20px;
     line-height: 30px;
 }
 
-.freepik{
-    font-size: 18px ;
+.freepik {
+    font-size: 18px;
 }
 
-.freepik a{
+.freepik a {
     color: inherit;
 }
 
-.flboxbutton{
+.flboxbutton {
     display: inline-block;
     padding: 4%;
     padding-left: 40px;
@@ -425,8 +425,4 @@ li {
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-
-.imgbox1b3{
-    margin: ;
 }
