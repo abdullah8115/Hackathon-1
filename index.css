@@ -558,9 +558,11 @@
         word-wrap: break-word;
     }
 
-    .yellowlast {
+    /* .yellowlast {
         background-color: #FBC201;
         display: flex;
+        width: fit-content;
+        height: 16cm;
     }
 
     .text-ywl {
@@ -574,7 +576,7 @@
         line-height: 12px;
     }
     
-    .yellowlast-button{
+    .yellowlastbut{
         display: inline-block;
         padding: 14px 32px 18px 32px;
         font-size: 18px;
@@ -583,20 +585,41 @@
         background-color: #34365a;
         color: #fff;
         border-radius: 30px;
-        cursor: pointer;
         transition: background-color 0.3s ease;
     }
 
     .yellow-clockgirl {
         box-sizing: border-box;
-        width: 100%;
+        width: 8cm;
+        height: 10cm;
+        margin: 0;
+        padding: 0;
+    } */
+
+
+    .yellowlast {
+        background-color: #ffba00;
+        display: flex;
+        height: 16cm;
+    }
+
+    .text-ywl {
+        padding-top: 2cm;
+        padding-left: 3cm;
+        line-height: 24px;
+    }
+
+    .text-ywl p {
+        font-size: 24px;
+        letter-spacing: 2px;
+        /* padding: 20px; */
+    }
+
+    .yellow-clockgirl {
+        box-sizing: border-box;
+        width: 180%;
         height: 100%;
         margin: 0;
         padding: 0;
     }
-
-
-
-
-
 }
